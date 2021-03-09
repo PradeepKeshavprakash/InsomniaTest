@@ -1,0 +1,37 @@
+_id: req_00184e3018d048648649b266081b58af
+type: Request
+parentId: fld_c0de1a0e473a4443b20bbc3434265885
+modified: 1615299154721
+created: 1615273760087
+url: http://localhost:8082/inventory-service/product-inventory-management/v4/product/d3c6dd45-e7b5-4a04-bf8a-30f816062dca
+name: PATCH
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "status": "pendingActive",
+        "currentStatusChangeReason": "Basic Product Bundle",
+        "currentStatusChangeMessage": "Base Product Bunbdle subcription will be done in NCC"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7b1e7bb18cae4b308863a197dc23938c
+authentication:
+  type: oauth2
+  grantType: password
+  username: vj
+  password: "1234"
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  clientId: digital-brand-user
+metaSortKey: -1615273760087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

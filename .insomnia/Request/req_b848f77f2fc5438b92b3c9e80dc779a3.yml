@@ -1,0 +1,156 @@
+_id: req_b848f77f2fc5438b92b3c9e80dc779a3
+type: Request
+parentId: fld_c0de1a0e473a4443b20bbc3434265885
+modified: 1615283159256
+created: 1612872685569
+url: http://localhost:8082/inventory-service/product-inventory-management/v4/product?fields=status
+name: PIS CREATE Subscription
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+        "description": "",
+        "isBundle": false,
+        "isCustomerVisible": null,
+        "name": "SIM",
+        "orderDate": "2021-03-02T01:50:45.127976+05:30",
+        "productSerialNumber": null,
+        "startDate": null,
+        "terminationDate": null,
+        "agreement": [],
+        "billingAccount": {
+            "id": "ad9e5b03-0653-443f-8820-7e4c74a584a9",
+            "href": "http://localhost:8081/user-service/account-management/v4/billingAccount/ad9e5b03-0653-443f-8820-7e4c74a584a9",
+            "name": null,
+            "baseType": null,
+            "schemaLocation": null,
+            "type": "BillingAccount",
+            "referredType": null
+        },
+        "place": null,
+        "product": [{
+            "id": "SIM",
+            "href": null,
+            "description": null,
+            "isBundle": false,
+            "isCustomerVisible": null,
+            "name": "SIM",
+            "orderDate": null,
+            "productSerialNumber": null,
+            "startDate": null,
+            "terminationDate": null,
+            "agreement": [],
+            "billingAccount": null,
+            "place": [],
+            "product": [],
+            "productCharacteristic": [],
+            "productOffering": null,
+            "productOrderItem": [],
+            "productPrice": [],
+            "productRelationship": [],
+            "productSpecification": {
+                "id": "SIM",
+                "href": "http://localhost:8080/cms/tmf-api/productCatalogManagement/v4/productSpecification/SIM",
+                "name": "SIM",
+                "version": null,
+                "targetProductSchema": null,
+                "baseType": null,
+                "schemaLocation": null,
+                "type": "ProductSpecificationRef",
+                "referredType": null
+            },
+            "productTerm": [],
+            "realizingResource": [],
+            "realizingService": [],
+            "relatedParty": [],
+            "status": null,
+            "baseType": null,
+            "schemaLocation": null,
+            "type": "Product",
+            "referredType": null
+        }],
+        "productCharacteristic": null,
+        "productOffering": {
+            "id": "SIM",
+            "href": "https://ndbnightlykeycloak.smpdevlabs.in/cms/tmf-api/productCatalogManagement/v4/productOffering/SIM",
+            "name": "SIM",
+            "baseType": null,
+            "schemaLocation": null,
+            "type": null,
+            "referredType": null
+        },
+        "productOrderItem": [{
+            "orderItemAction": "add",
+            "orderItemId": "SIM",
+            "productOrderHref": "/product-order-management/v4/productOrder/c31cdae4-59b1-47d7-85d9-b974f5ac30c7",
+            "productOrderId": "c31cdae4-59b1-47d7-85d9-b974f5ac30c7",
+            "role": null,
+            "baseType": null,
+            "schemaLocation": null,
+            "type": null,
+            "referredType": null
+        }],
+        "productPrice": [{
+            "description": "Access Fee",
+            "name": "Access Fee",
+            "priceType": "nonRecurring",
+            "recurringChargePeriod": null,
+            "unitOfMeasure": null,
+            "billingAccount": null,
+            "price": {
+                "percentage": null,
+                "taxRate": 0.0,
+                "dutyFreeAmount": null,
+                "taxIncludedAmount": null,
+                "baseType": null,
+                "schemaLocation": null,
+                "type": null
+            },
+            "productOfferingPrice": null,
+            "productPriceAlteration": null,
+            "baseType": null,
+            "schemaLocation": null,
+            "type": null
+        }],
+        "productRelationship": [],
+        "productSpecification": null,
+        "productTerm": [],
+        "realizingResource": null,
+        "realizingService": null,
+        "relatedParty": [{
+            "id": "464b99a1-75bf-4ee2-bccc-ad707b9f4712",
+            "href": "http://localhost:8081/user-service/party-management/v4/individual/464b99a1-75bf-4ee2-bccc-ad707b9f4712",
+            "name": null,
+            "role": null,
+            "baseType": null,
+            "schemaLocation": null,
+            "type": "RelatedParty",
+            "@referredType": "Individual"
+        }],
+        "status": "created",
+        "baseType": null,
+        "schemaLocation": null,
+        "type": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aac9ec0542f84172ba67701a90360f30
+authentication:
+  type: oauth2
+  grantType: password
+  username: vj
+  password: "1234"
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  clientId: digital-brand-user
+metaSortKey: -1612872685569
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

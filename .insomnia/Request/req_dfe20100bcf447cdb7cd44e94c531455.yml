@@ -1,0 +1,27 @@
+_id: req_dfe20100bcf447cdb7cd44e94c531455
+type: Request
+parentId: fld_bd35f94d660f408194bdb110d10a95f0
+modified: 1614632084366
+created: 1614630364481
+url: https://20210301134016748.smpdevlabs.in/user-service/party-management/v4/individual/99e75e8c-d32b-41c8-9b97-77aebd8b5261
+name: GET Party
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: password
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  username: ndbuser
+  password: ndbuser1
+  clientId: digital-brand-user
+metaSortKey: -1614630364534
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

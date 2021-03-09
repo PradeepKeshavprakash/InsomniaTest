@@ -1,0 +1,33 @@
+_id: req_78d85ca2dbd643b29f30675e03bf07ae
+type: Request
+parentId: fld_7dbc4a93dec24c248c314cfa3988f001
+modified: 1614269336169
+created: 1611710511880
+url: http://localhost:8081/order-service/product-order-management/v4/productOrder/
+name: OMS Get Order
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_0372ab62aa1c45b280c7ec592dcd30b9
+authentication:
+  type: oauth2
+  grantType: password
+  username: ndbuser
+  password: ndbuser1
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  clientId: digital-brand-user
+metaSortKey: -1612214290310.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

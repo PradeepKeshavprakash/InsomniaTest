@@ -1,0 +1,108 @@
+_id: req_43fcfa7393e645a98475929f42789b60
+type: Request
+parentId: fld_7dbc4a93dec24c248c314cfa3988f001
+modified: 1614633470107
+created: 1611681632068
+url: http://localhost:8081/order-service/product-order-management/v4/productOrder/
+name: OMS Create Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+       "category":"B2C product order",
+       "description":"Product Order illustration sample",
+       "productOrderItem":[
+          {
+             "id":"SIM",
+             "quantity":1,
+             "action":"add",
+             "product":{
+                "isBundle":false,
+                "@type":"Product",
+                "name":"SIM",
+                "id":"SIM",
+                "productCharacteristic":[
+                   
+                ],
+                "productSpecification":{
+                   "id":"SIM",
+                   "href":"http://localhost:8080/cms/tmf-api/productCatalogManagement/v4/productSpecification/SIM",
+                   "isBundle":false,
+                   "lastUpdate":"2021-02-26T05:32:48.252Z",
+                   "lifecycleStatus":"Active",
+                   "name":"SIM",
+                   "@type":"ProductSpecificationRef"
+                }
+             },
+             "billingAccount":{
+                "id":"ad9e5b03-0653-443f-8820-7e4c74a584a9",
+                "href":"http://localhost:8081/user-service/account-management/v4/billingAccount/ad9e5b03-0653-443f-8820-7e4c74a584a9",
+                "@type":"BillingAccount"
+             },
+             "productOffering":{
+                "name":"SIM",
+                "id":"SIM",
+                "href":"http://localhost:8080/cms/tmf-api/productCatalogManagement/v4/productOffering/SIM",
+                "isBundle":false,
+                "productSpecification":"{\"id\":\"SIM\",\"href\":\"http://localhost:8080/cms/tmf-api/productCatalogManagement/v4/productSpecification/SIM\",\"isBundle\":false,\"lastUpdate\":\"2021-02-26T05:32:48.252Z\",\"lifecycleStatus\":\"Active\",\"name\":\"SIM\"}",
+                "productOfferingPrice":"{\"id\":\"SIM\",\"href\":\"http://localhost:8080/cms/tmf-api/productCatalogManagement/v4/productOfferingPrice/SIM\",\"isBundle\":false,\"lastUpdate\":\"2021-02-26T05:32:48.252Z\",\"lifecycleStatus\":\"Active\",\"name\":\"SIM\",\"percentage\":0,\"priceType\":\"recurring\",\"recurringChargePeriodLength\":1,\"recurringChargePeriodType\":\"monthly\",\"price\":{\"unit\":\"USD\",\"value\":2}}",
+                "price":{
+                   "unit":"USD",
+                   "value":2,
+                   "periodType":"monthly"
+                }
+             },
+             "itemPrice":[
+                {
+                   "description":"Access Fee",
+                   "name":"Access Fee",
+                   "priceType":"nonRecurring",
+                   "price":{
+                      "taxRate":0,
+                      "dutyFreeAmount":{
+                         "unit":"EUR",
+                         "value":0.99
+                      },
+                      "taxIncludedAmount":{
+                         "unit":"EUT",
+                         "value":0.99
+                      }
+                   }
+                }
+             ],
+             "@type":"ProductOrderItem"
+          }
+       ],
+       "relatedParty":[
+          {
+             "id":"490040f3-a4ee-411f-a3ea-4d88aeb45230",
+             "href":"http://localhost:8081/user-service/party-management/v4/individual/c92c9105-6739-466b-bb7f-def7ec524873",
+             "@type":"RelatedParty",
+             "@referredType":"Individual"
+          }
+       ],
+       "@type":"ProductOrder"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_0372ab62aa1c45b280c7ec592dcd30b9
+authentication:
+  type: oauth2
+  grantType: password
+  username: ndbuser
+  password: ndbuser1
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  clientId: digital-brand-user
+metaSortKey: -1612214290260.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_90efe0ba34bd4b0e92f2798d36ecae32
+type: Request
+parentId: fld_d588067b194c464e8b341c7e085497cb
+modified: 1614585055156
+created: 1614585002994
+url: "
+  https://ndbnightlykeycloak.smpdevlabs.in/cms/tmf-api/productCatalogManagement\
+  /v4/productSpecification/PrePaid_Bundle_V1"
+name: GET
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: password
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  username: ndbuser
+  password: ndbuser1
+  clientId: digital-brand-user
+metaSortKey: -1614585002994
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

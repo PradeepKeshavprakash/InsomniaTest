@@ -1,0 +1,27 @@
+_id: req_d96e9d5051b6414fa259cd48a899fd05
+type: Request
+parentId: fld_7dbc4a93dec24c248c314cfa3988f001
+modified: 1614146701473
+created: 1612247640278
+url: http://localhost:8081/order-service/product-order-management/v4/productOrder/0c6a01e5-eb69-4bfc-9c4d-8f329d50cb38?fields=state
+name: OMS Get All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: password
+  accessTokenUrl: http://localhost:8080/auth/realms/DigitalBrand/protocol/openid-connect/token
+  username: pradeepk
+  password: pradeepk
+  clientId: digital-brand-user
+metaSortKey: -1612247640278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

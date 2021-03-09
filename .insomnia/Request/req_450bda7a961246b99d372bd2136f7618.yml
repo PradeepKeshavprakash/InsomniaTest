@@ -1,0 +1,32 @@
+_id: req_450bda7a961246b99d372bd2136f7618
+type: Request
+parentId: fld_c0de1a0e473a4443b20bbc3434265885
+modified: 1615283587788
+created: 1612181195678
+url: http://localhost:8082/inventory-service/product-inventory-management/v4/product
+name: GET
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_a2e9a91fec244b7c8dd0acd74eae1e83
+authentication:
+  type: oauth2
+  grantType: password
+  username: vj
+  password: "1234"
+  accessTokenUrl: https://ndbnightlykeycloak.smpdevlabs.in/auth/realms/DigitalBrand/protocol/openid-connect/token
+  clientId: digital-brand-user
+  clientSecret: ""
+metaSortKey: -1612526940624
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
